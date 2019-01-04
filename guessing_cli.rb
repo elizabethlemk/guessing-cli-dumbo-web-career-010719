@@ -9,10 +9,8 @@ def run_guessing_game
       break
     elsif response.to_i == number
         puts "You guessed the correct number!"
-    elsif response.to_i != number
-      puts "The computer guessed #{number}."
     else
-      puts "Invaid input"
+      puts "The computer guessed #{number}."
     end
   end
 end
