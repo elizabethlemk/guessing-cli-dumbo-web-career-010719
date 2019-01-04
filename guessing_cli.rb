@@ -7,7 +7,6 @@ if response == number
   puts "You guess the right number!"
 elsif response == "exit"
   puts "Goodbye!"
-  break
 else
   puts "The computer guessed #{number}."
 end
