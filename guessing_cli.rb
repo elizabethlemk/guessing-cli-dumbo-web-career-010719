@@ -11,7 +11,7 @@ def run_guessing_game
         puts "You guessed the right number!"
     elsif response.to_i != number
       puts "The computer guessed #{number}."
-    else 
+    else
       puts "Invaid input"
     end
   end
